@@ -1,0 +1,48 @@
+# main links
+main:
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: 'Posts by Year'
+    url: '/year-archive/'
+  - title: 'Categories'
+    url: '/categories/'
+  - title: 'Tags'
+    url: /tags/
+
+main-sidebar:
+  - title: ASAC 5기
+    children:
+      - title: 웹 개발 기본 이론
+        url: /tags/#asac-5기
+      - title: 주간회고
+        url: # /tags/#report
+
+  - title: 웹 개발
+    children:
+      - title: 'HTTP'
+        url: # /tags/#http
+      - title: '도커'
+        url: /tags/#docker
+
+  - title: 프론트 엔드
+    children:
+      - title: '자바스크립트'
+        url: /tags/#javascript
+      - title: '리액트'
+        url: # /tags/#react
+      - title: 'Next.js'
+        url: # /tags/#nextjs
+
+  - title: 백 엔드
+    children:
+      - title: '자바'
+        url: # /tags/#java
+      - title: '스프링'
+        url: # /tags/#spring
+      - title: 'Node.js'
+        url: # /tags/#nodejs
+
+  - title: 깃허브 페이지
+    children:
+      - title: 'Jekyll'
+        url: /tags/#jekyll
